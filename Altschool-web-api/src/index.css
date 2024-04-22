@@ -1,11 +1,111 @@
-.repo {
-  width: 70vw;
-  margin: 10px auto;
-  text-align: center;
-  border: 2px solid grey;
+*{
+  font-family: "Poppins", sans-serif;
 }
 
+body, html {
+  background-color: white;
+  color: #000;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Link */
 .link {
   text-decoration: none;
   color: unset;
+}
+
+/* bgg */
+.bg-0 {
+  background-color: #80748C;
+}
+
+.bg-1 {
+  background-color: #d5aca9;
+}
+
+.bg-2 {
+  background-color: #6b818c;
+}
+
+.bg-3 {
+  background-color: #a86879;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  color: #AD2E24;
+  padding: .5rem 2.5%;
+}
+
+.navbar-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link-1 {
+  padding: .5rem 1.2rem;
+  color: #6b818c;
+  border: .2rem solid #6b818c;
+  border-radius: .3rem;
+  font-size: large;
+  font-weight: 700;
+}
+
+.nav-link-2 {
+  padding: .5rem 1.2rem;
+  color: #000;
+  border: .2rem solid #6b818c;
+  border-radius: .3rem;
+  background-color: #6b818c;
+  font-size: large;
+  font-weight: 700;
+}
+
+.nav-logo {
+  font-size: 1.8rem;
+  line-height: 0;
+  font-weight: 800;
+}
+
+/* search bar */
+.search-input {
+  width: 20rem;
+  height: 2.5rem;
+  padding: .3rem;
+  border-radius: 1.5rem;
+  border: .2rem solid #0a2239;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.repos-content {
+  padding: 1rem .2rem;
+  border: 2px solid #fff;
+  min-height: 7rem;
+  text-align: center;
+  border-radius: .4rem;
+  /* background-color: rgba(210, 255, 150, 0.555); */
+}
+
+.repos-content:hover {
+  background-color: #dabcee;
+}
+
+.repos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+  width: 95%;
+  margin: 2rem auto;
 }
