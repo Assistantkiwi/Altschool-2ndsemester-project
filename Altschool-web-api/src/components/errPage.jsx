@@ -3,11 +3,11 @@ import Navbar from './navbar'
 const ErrPage = () => {
     const error = useRouteError();
     return(
-        <div>
+        <div className='error'>
             <Navbar/>
-            <h3>{error.status}: {error.statusText}</h3>
-            <p>{error.data}</p>
-            <Link to={"/"}>go back</Link>
+            <h3 className='status'>{error.status}: {error.statusText}</h3>
+            <p className='data'>{error.data}</p>
+            <Link to={"/"} className='home'>Go back</Link>
         </div>
     )
 }

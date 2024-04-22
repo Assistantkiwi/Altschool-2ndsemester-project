@@ -91,7 +91,7 @@ body, html {
 
 .repos-content {
   padding: 1rem .2rem;
-  border: 2px solid #fff;
+  border: 2px solid #7C7C7C;
   min-height: 7rem;
   text-align: center;
   border-radius: .4rem;
@@ -108,4 +108,31 @@ body, html {
   gap: 2rem;
   width: 95%;
   margin: 2rem auto;
+}
+
+.error {
+  max-width: 50px;
+  margin: 0px auto;
+}
+
+.home {
+  margin: 40px 0px;
+  display: flex;
+  border-radius: 6px;
+  background-color: #80748C;
+  padding: 25px;
+  font-weight: 200;
+  width: 40px;
+
+}
+.status {
+  font-size: 40px;
+  font-style: bold;
+  padding-left: 0px;
+}
+
+.data {
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px 0px;
 }
