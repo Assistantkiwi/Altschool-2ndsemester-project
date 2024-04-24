@@ -89,6 +89,7 @@ body, html {
   outline: none;
 }
 
+/* repository */
 .repos-content {
   padding: 1rem .2rem;
   border: 2px solid #7C7C7C;
@@ -110,29 +111,22 @@ body, html {
   margin: 2rem auto;
 }
 
+/* error page */
 .error {
-  max-width: 50px;
-  margin: 0px auto;
+  text-align: center;
 }
 
-.home {
-  margin: 40px 0px;
-  display: flex;
-  border-radius: 6px;
-  background-color: #80748C;
-  padding: 25px;
-  font-weight: 200;
-  width: 40px;
-
-}
 .status {
   font-size: 40px;
-  font-style: bold;
-  padding-left: 0px;
 }
 
 .data {
-  font-size: 50px;
-  margin: 0px;
-  padding: 0px 0px;
+  font-size: 30px;
+}
+
+.home {
+  background-color: #dabcee;
+  font-size: 40px;
+  padding: 25px;
+  border-radius: 4px;
 }
