@@ -96,7 +96,7 @@ body, html {
   min-height: 7rem;
   text-align: center;
   border-radius: .4rem;
-  /* background-color: rgba(210, 255, 150, 0.555); */
+  
 }
 
 .repos-content:hover {
@@ -109,6 +109,12 @@ body, html {
   gap: 2rem;
   width: 95%;
   margin: 2rem auto;
+}
+
+.repo {
+  text-align: center;
+  border: 2px solid #7C7C7C;
+  border-radius: .4rem;
 }
 
 /* error page */
@@ -129,4 +135,25 @@ body, html {
   font-size: 40px;
   padding: 25px;
   border-radius: 4px;
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .repos {
+    display: grid;
+    grid-template-columns: auto;
+    width: 95%;
+  }
+
 }
